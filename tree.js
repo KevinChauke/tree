@@ -1,6 +1,6 @@
-let n = 5;
+let n = 25;
 let stars = "";
-for (let i = 1; i <= n; i++) {
+for (let i = 1; i <= n; i++) {      //  "i = 1" is my starting point, i <= n" is my range and "i++" is an increment
   for (let j = 0; j < i; j++) {
     stars += "*";
   }
